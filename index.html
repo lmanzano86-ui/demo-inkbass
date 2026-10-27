@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Inkbass-Tattoo Studio — Tampa, FL</title>
+<meta name="description" content="Inkbass Tattoo Studio en Tampa, FL: todos los estilos de tatuajes, piercing profesional y tatuajes UV / blacklight. 7607 Causeway Blvd · (813) 875-6668 · Abierto todos los días.">
 <style>
   * { margin:0; padding:0; box-sizing:border-box; }
   body { font-family:'Segoe UI', Arial, sans-serif; background:#0c0c0e; color:#e8e6e1; line-height:1.55; }
@@ -54,6 +55,20 @@
   .nota { text-align:center; font-size:.78rem; color:#777; margin-top:12px; }
   footer { background:#08080a; color:#6f6d68; text-align:center; padding:20px 16px; font-size:.8rem; border-top:1px solid #2c2c33; }
   footer a { color:#c9a227; text-decoration:none; }
+
+  .hw-badge { display:inline-block; background:linear-gradient(90deg,#ff7518,#8b2fc9); color:#fff; font-weight:800; border-radius:20px; padding:5px 16px; margin-top:10px; font-size:.9rem; letter-spacing:1px; box-shadow:0 0 18px rgba(255,117,24,.45); }
+
+  /* Decoración Halloween integrada al diseño (base intacta) */
+  header { position:relative; min-height:660px; display:flex; flex-direction:column; justify-content:flex-end; align-items:center; background:linear-gradient(rgba(8,6,10,.10), rgba(8,6,10,.38) 52%, rgba(8,6,10,.93) 82%), url('imgs/halloween-1.jpg') center top / cover no-repeat; overflow:hidden; }
+  header > * { position:relative; z-index:1; }
+  header .btns { width:100%; }
+  header img.logo { box-shadow:0 0 34px rgba(255,117,24,.55), 0 0 30px rgba(201,162,39,.4); }
+  .hw-banner { position:relative; padding:64px 22px; text-align:center; background:linear-gradient(rgba(10,6,14,.55), rgba(10,6,14,.78)), url('imgs/halloween-4.jpg') center 38% / cover no-repeat; border-top:3px solid #ff7518; border-bottom:3px solid #8b2fc9; }
+  .hw-banner .t { font-size:1.7rem; font-weight:800; letter-spacing:2px; color:#ffb347; text-shadow:0 2px 16px rgba(0,0,0,.8); }
+  .hw-banner p { color:#f3e6ff; margin-top:8px; font-size:.98rem; text-shadow:0 1px 10px rgba(0,0,0,.9); }
+  .hw-banner .btn { margin-top:16px; background:#ff7518; color:#16100a; box-shadow:0 0 18px rgba(255,117,24,.5); }
+  .hw-strip { height:180px; background:url('imgs/halloween-2.jpg') center 32% / cover no-repeat; border-top:3px solid #8b2fc9; border-bottom:3px solid #ff7518; }
+  .info { background:linear-gradient(rgba(13,12,16,.93), rgba(13,12,16,.96)), url('imgs/halloween-3.jpg') center 30% / cover no-repeat; }
 </style>
 </head>
 <body>
@@ -61,15 +76,17 @@
 
 <header>
   <img class="logo" src="data:image/jpeg;base64,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" alt="Logo Inkbass Tattoo Studio">
-  <div class="name">INKBASS</div>
+  <h1 class="name">INKBASS</h1>
   <div class="sub">TATTOO STUDIO</div>
   <div class="tag">"Hola somos INKBASS.Tattoo y nos especializamos en todos los estilos de tatuajes y Piercing, abrimos todos los días"</div>
   <div><span class="rating">★ 5.0 · 57 reseñas en Google</span></div>
+  <div><span class="hw-badge">🎃 EDICIÓN HALLOWEEN 👻</span></div>
   <div class="btns">
     <a class="btn call" href="tel:+18138756668">📞 (813) 875-6668</a>
     <a class="btn dm" href="https://www.instagram.com/inkbass.tattoo">💬 Reserva por Instagram</a>
   </div>
 </header>
+
 
 <section>
   <h2>✨ ESTILOS</h2>
@@ -89,6 +106,9 @@
   <p class="nota">Fotos de muestra de cada estilo — escríbenos por Instagram para ver el portafolio real del estudio.</p>
 </section>
 
+
+<div class="hw-strip" role="img" aria-label="Pareja disfrazada de payasos frente a Inkbass Tattoo Studio en Halloween"></div>
+
 <section>
   <h2>🎨 NUESTRA ARTISTA</h2>
   <p class="lede">Manos expertas, ambiente de familia</p>
@@ -97,6 +117,13 @@
     <div class="h">@intergalacticinks · Tatuando desde 2017</div>
     <p>Especialista en tatuajes UV, anime, blackwork, fineline y trad & neo-trad. Casi 10 años en el arte del tatuaje, con servicio al cliente impecable y vibras increíbles.</p>
   </div>
+</section>
+
+
+<section class="hw-banner">
+  <div class="t">🎃 HALLOWEEN EN INKBASS 👻</div>
+  <p>La casa embrujada abrió sus puertas: disfraces, calabazas encendidas y el duende de la casa recibiéndote en la temporada más oscura del año.</p>
+  <a class="btn" href="https://www.instagram.com/inkbass.tattoo">🎃 Vive la temporada en Instagram</a>
 </section>
 
 <section>
